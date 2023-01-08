@@ -2,7 +2,7 @@ if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Dependencies
 local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/SxeaWareee/SxeaWare/main/fov2.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/BeizerManager.lua"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/SxeaWareee/SxeaWare/main/manager"))()
 
 -- // Services
 local Players = game:GetService("Players")
